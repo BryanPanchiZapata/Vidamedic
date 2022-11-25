@@ -1,0 +1,102 @@
+.card__container {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.content_card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  grid-gap: 1.9rem;
+  margin-bottom: 3rem;
+}
+.mat-card {
+  padding: 0;
+  padding-bottom: 3rem;
+  border-radius: 1rem;
+}
+.mat-card:not([class*="mat-elevation-z"]) {
+  background: rgb(245, 246, 247);
+}
+
+.service__tittle {
+  display: flex;
+  justify-content: center;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 2rem;
+  color: #338b85;
+  margin-bottom: 2rem;
+}
+
+.contenedor img {
+  object-fit: cover;
+  transition: 1s;
+  width: 100%;
+  margin: 0 auto;
+  height: 20rem;
+}
+.contenedor img:hover {
+  transform: scale(1.3);
+}
+.contenedor {
+  overflow: hidden;
+  margin-bottom: 1.3rem;
+}
+
+.contenedor img:hover {
+  opacity: 0.8;
+}
+
+.example-card {
+  background: #f7f7f7;
+  height: 100%;
+}
+mat-card-content {
+  text-align: center;
+  font-family: "Readex Pro", sans-serif;
+}
+
+.content__tittle {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #4d4d4d;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.content__subtittle {
+  color: #666666;
+  font-size:.9rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: "Readex Pro", sans-serif;
+}
+li {
+  list-style: none;
+}
+
+.container__social {
+  font-size: 1rem;
+  border-radius: 2rem;
+  background: #25d366;
+  padding: 0.7rem 0.1rem;
+  top: 35rem;
+  right: 1.4rem;
+  position: fixed;
+  z-index: 20;
+  border-radius: 50%;
+}
+.container__social a {
+  text-decoration: none;
+  color: #ffff;
+}
+.container__social__img {
+  display: flex;
+  align-items: center;
+}
+.container__social__img img {
+  width: 56px;
+  padding: 0 0.7rem;
+}
+.container__social:hover {
+  background: #06be4a;
+}

@@ -1,0 +1,134 @@
+/* .container__text {
+  font-weight: bold;
+  width: 90%;
+  padding: 15rem 0 23rem 0;
+  margin: 0 auto;
+}
+
+@keyframes showTopText {
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(0, 50%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes showBottomText {
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animated-title {
+  color: #ffffff;
+  width: 90%;
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+  padding: 1rem 0;
+  animation-iteration-count: 1, infinite;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 2rem;
+  padding: 3vmin 0;
+  position: absolute;
+}
+
+.animated-title > div div span:last-child {
+  font-size: 1.1rem;
+}
+.animated-title > div div span {
+  display: block;
+  padding: 0.3rem 0;
+}
+.animated-title > div div span span {
+  display: block;
+  padding: 1.5rem 0;
+}
+.animated-title > div.text-top {
+  border-bottom: 0.7vmin solid #fff;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #fff;
+  padding-bottom: 2.8rem;
+  display: flex;
+  justify-content: center;
+}
+.animated-title > div.text-top div span:nth-child(2) {
+  padding-bottom: 0.1rem;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.text-bottom {
+  display: flex;
+  justify-content: center;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  font-size: 2.7rem;
+  color: #e16434;
+  padding-top: 2rem;
+  line-height: 30px;
+  transform: translate(0, -100%);
+}
+
+@media screen and (max-width: 820px) {
+  .container__text {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .container__text p:last-child {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+  .animated-title > div div {
+    font-size: 3.8rem;
+    padding: 1vmin 0 0 0;
+    position: absolute;
+  }
+  .animated-title > div div span:first-child {
+    font-size: 2rem;
+  }
+  .animated-title > div div span:last-child {
+    font-size: 1rem;
+  }
+  .animated-title > div.text-top div span:first-child {
+    padding-bottom: 1.6rem;
+  }
+  .animated-title > div.text-bottom div {
+    font-size: 2.1rem;
+    line-height: 30px;
+  }
+}
+ */

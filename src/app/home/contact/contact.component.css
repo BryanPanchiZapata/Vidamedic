@@ -1,0 +1,127 @@
+.container__contact {
+  position: relative;
+}
+
+.content__img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0 0 0 / 0.6),
+      rgb(0 0 0/ 0.25)
+    ),
+    url(.././../../assets/contacto.jpg);
+  font-family: "Readex Pro", sans-serif;
+}
+.tittle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  color: #ffff;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  padding-top: 2rem;
+}
+.subtittle {
+  font-size: 1.2rem;
+  width: 80%;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  color: #ffff;
+  text-align: center;
+  line-height: 2rem;
+  margin: 0 auto;
+  justify-content: start;
+  margin-top: 2rem;
+  align-items: flex-start;
+  display: flex;
+}
+.content__info {
+  font-size: 1.2rem;
+  width: 80%;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  color: #ffff;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.8rem;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+  display: flex;
+}
+
+.text-bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.3rem;
+  font-family: "Readex Pro", sans-serif;
+}
+.button_text {
+  border: none;
+  background-color: #1bb3a6;
+  border-radius: 0.4rem;
+  font-size: 1.3rem;
+  color: #ffff;
+  padding: 1rem 2rem;
+}
+.button_text:hover {
+  background-color: #36cccc;
+  transform: 0.7s;
+}
+
+.container__social {
+  font-size: 1rem;
+  border-radius: 2rem;
+  background: #25d366;
+  padding: 0.7rem 0.1rem;
+  top: 35rem;
+  right: 1.4rem;
+  position: fixed;
+  z-index: 20;
+  border-radius: 50%;
+}
+.container__social a {
+  text-decoration: none;
+  color: #ffff;
+}
+.container__social__img {
+  display: flex;
+  align-items: center;
+}
+.container__social__img img {
+  width: 56px;
+  padding: 0 0.7rem;
+}
+.container__social:hover {
+  background: #06be4a;
+}
+
+@media screen and (max-width: 1080px) {
+  .container__specialties {
+    margin-top: 0rem;
+  }
+  .tittle {
+    line-height: 3rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .content__img {
+    height: 95vh;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .container__social {
+    top: 28rem;
+  }
+}

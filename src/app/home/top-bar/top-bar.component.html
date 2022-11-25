@@ -1,0 +1,54 @@
+<div class="example-container" [class.example-is-mobile]="mobileQuery.matches">
+  <mat-toolbar class="example-toolbar">
+    <button mat-icon-button (click)="snav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <div class="nav__ul">
+      <div class="nav__logo">
+        <a href=""
+          ><img
+            class="logo"
+            src="../../../assets/logo3.0.png"
+            alt="Marios Pizzas"
+        /></a>
+      </div>
+      <div class="nav__menu container__nav yellow pullUp">
+        <li class="active"><a href="#">Inicio</a></li>
+        <li class="active">
+          <a [routerLink]="['/especialidades']">Especialidades</a>
+        </li>
+        <li class="active"><a [routerLink]="['/historia']">Quiénes Somos</a></li>
+        <li class="active">
+          <a [routerLink]="['/menu']">Promociones del mes</a>
+        </li>
+        <li class="active"><a [routerLink]="['/galeria']">Galería</a></li>
+        <li class="active"><a [routerLink]="['/contacto']">Contácto</a></li>
+      </div>
+    </div>
+  </mat-toolbar>
+
+  <mat-sidenav-container
+    class="example-sidenav-container"
+    [style.marginTop.px]="mobileQuery.matches ? 62 : 0"
+  >
+    <mat-sidenav
+      #snav
+      [mode]="mobileQuery.matches ? 'over' : 'side'"
+      [fixedInViewport]="mobileQuery.matches"
+      fixedTopGap="80"
+    >
+      <mat-nav-list>
+        <li class="active"><a mat-list-item href="#">Inicio</a></li>
+        <li>
+          <a mat-list-item [routerLink]="['/especialidades']">Especialidades</a>
+        </li>
+        <li><a mat-list-item [routerLink]="['/historia']">Quiénes Somo</a></li>
+        <li>
+          <a mat-list-item [routerLink]="['/menu']">Promociones del mes</a>
+        </li>
+        <li><a mat-list-item [routerLink]="['/galeria']">Galería</a></li>
+        <li><a mat-list-item [routerLink]="['/contacto']">Contácto</a></li>
+      </mat-nav-list>
+    </mat-sidenav>
+  </mat-sidenav-container>
+</div>

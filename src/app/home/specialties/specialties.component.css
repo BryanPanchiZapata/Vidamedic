@@ -1,0 +1,42 @@
+.container__specialties {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.content__img {
+  width: 98vw;
+  margin: 0 auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  background-image: linear-gradient(
+      to left,
+      rgb(0 0 0 / 0.1),
+      rgba(39, 186, 196, 0.71)
+    ),
+    url(.././../../assets/especialidades.jpg);
+}
+.tittle {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 2.5rem;
+  color: #ffff;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 1080px) {
+  .container__specialties {
+    margin-top: 0rem;
+  }
+  .tittle {
+    line-height: 3rem;
+    text-align: center;
+    width: 100%;
+  }
+}
