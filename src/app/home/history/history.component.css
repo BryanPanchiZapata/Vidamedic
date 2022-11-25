@@ -85,6 +85,7 @@
 .container__tittle {
   display: block;
 }
+
 .container__tittle p:nth-child(1) {
   font-size: 1.8rem;
   font-weight: bold;
@@ -157,9 +158,6 @@ img {
   .container__text p:nth-child(2) {
     width: 90%;
   }
-  .container__vision img {
-    height: 40%;
-  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -177,5 +175,16 @@ img {
 @media screen and (max-width: 820px) {
   .container__social {
     top: 28rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  img {
+    max-width: 300px;
+    object-fit: cover;
+    padding: 0 1rem;
+  }
+  .border {
+    width: 300px;
   }
 }
