@@ -10,13 +10,13 @@ export interface Medi_Service {
 export const medi_service = {
   title: 'Vacunas',
   description:
-    '1The Shiba Inu is the smallest of the six original and distinct six original and distinct.',
+    'Son múltiples los beneficios que aportan las vacunas, salvan vidas cada año, con las vacunas ayudamos a la eliminación y hasta su erradicación.',
 
   title2: 'Sueroterapia',
   description2:
-    '2The Shiba Inu is the smallest of the six original and distinct six original and distinct.',
+    'Es un tratamiento que consiste en la administración de sueros específicos que favorecen la autocuración de nuestro organismo a partir de una selección de vitaminas y fármacos biológicos.',
 
   title3: 'Laboratorio clínico',
   description3:
-    '3The Shiba Inu is the smallest of the six original and distinct six original and distinct.',
+    'Tenemos a su disposición exámenes de sangre, orina, hormonas, enzimas, antígenos pruebas de COVID',
 };

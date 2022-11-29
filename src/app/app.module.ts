@@ -31,6 +31,9 @@ import { GalleryComponent } from './home/gallery/gallery.component';
 import { ServiceImageComponent } from './home/card-especilties/service-image/service-image.component';
 import { ServiceMedicineComponent } from './home/card-especilties/service-medicine/service-medicine.component';
 import { ServiceVaccinesComponent } from './home/card-especilties/service-vaccines/service-vaccines.component';
+import { LaboratorioComponent } from './home/laboratorio/laboratorio.component';
+import { EmergyComponent } from './home/emergy/emergy.component';
+import { SueroterapiaComponent } from './home/sueroterapia/sueroterapia.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +55,9 @@ import { ServiceVaccinesComponent } from './home/card-especilties/service-vaccin
     ServiceImageComponent,
     ServiceMedicineComponent,
     ServiceVaccinesComponent,
+    LaboratorioComponent,
+    EmergyComponent,
+    SueroterapiaComponent,
   ],
   imports: [
     BrowserModule,

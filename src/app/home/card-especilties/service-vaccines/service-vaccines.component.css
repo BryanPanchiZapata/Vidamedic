@@ -62,6 +62,41 @@
   color: #666666;
   font-family: "Readex Pro", sans-serif;
 }
+.container__social {
+  font-size: 1rem;
+  border-radius: 2rem;
+  background: #25d366;
+  padding: 0.7rem 0.1rem;
+  top: 35rem;
+  right: 1.4rem;
+  position: fixed;
+  z-index: 20;
+  border-radius: 50%;
+}
+.container__social a {
+  text-decoration: none;
+  color: #ffff;
+}
+.container__social__img {
+  display: flex;
+  align-items: center;
+}
+.container__social__img img {
+  width: 56px;
+  padding: 0 0.7rem;
+}
+.container__social:hover {
+  background: #06be4a;
+}
+
+@media screen and (max-width: 820px) {
+  .container__social {
+    top: 40rem;
+  }
+  .container__social {
+    top: 28rem;
+  }
+}
 
 @media screen and (max-width: 1080px) {
   .container__specialties {
@@ -79,7 +114,7 @@
     height: auto;
     padding: 3rem 0;
   }
-  .image{
+  .image {
     width: 100%;
     height: 50vh;
   }

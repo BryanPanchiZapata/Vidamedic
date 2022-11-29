@@ -6,13 +6,23 @@
     <div class="container__card">
       <mat-card class="example-card">
         <div class="contenedor">
-          <img mat-card-image src="../../../assets/vacuna.jpg" alt="" />
+          <a [routerLink]="['/vacunas']"
+            ><img mat-card-image src="../../../assets/vacuna.jpg" alt=""
+          /></a>
         </div>
         <mat-card-content>
-          <div class="content__tittle">{{ medi_service.title }}</div>
+          <a
+            ><div class="content__tittle">{{ medi_service.title }}</div></a
+          >
+
           <p class="content__subtittle">
             {{ medi_service.description }}
           </p>
+          <div class="text-bottom">
+            <a [routerLink]="['/vacunas']"
+              ><button class="button_text">Ver más</button></a
+            >
+          </div>
         </mat-card-content>
       </mat-card>
     </div>
@@ -20,13 +30,20 @@
     <div class="container__card">
       <mat-card class="example-card">
         <div class="contenedor">
-          <img mat-card-image src="../../../assets/sueroterapia.jpg" alt="" />
+          <a [routerLink]="['/sueroterapia']">
+            <img mat-card-image src="../../../assets/sueroterapia.jpg" alt=""
+          /></a>
         </div>
         <mat-card-content>
           <div class="content__tittle">{{ medi_service.title2 }}</div>
           <p class="content__subtittle">
             {{ medi_service.description2 }}
           </p>
+          <div class="text-bottom">
+            <a [routerLink]="['/sueroterapia']"
+              ><button class="button_text">Ver más</button></a
+            >
+          </div>
         </mat-card-content>
       </mat-card>
     </div>
@@ -34,17 +51,22 @@
     <div class="container__card">
       <mat-card class="example-card">
         <div class="contenedor">
-          <img mat-card-image src="../../../assets/laboratorio.jpg" alt="" />
+          <a [routerLink]="['/laboratorio-clinico']"
+            ><img mat-card-image src="../../../assets/laboratorio.jpg" alt=""
+          /></a>
         </div>
         <mat-card-content>
           <div class="content__tittle">{{ medi_service.title3 }}</div>
           <p class="content__subtittle">
             {{ medi_service.description3 }}
           </p>
+          <div class="text-bottom">
+            <a [routerLink]="['/laboratorio-clinico']"
+              ><button class="button_text">Ver más</button></a
+            >
+          </div>
         </mat-card-content>
       </mat-card>
     </div>
   </div>
 </div>
-
-

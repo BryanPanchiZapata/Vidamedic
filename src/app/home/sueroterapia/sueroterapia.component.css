@@ -1,0 +1,162 @@
+.container__specialties {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem 0;
+}
+.content_border {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service__tittle {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 2rem;
+  color: #338b85;
+  padding-bottom: 0.9rem;
+}
+.border {
+  background-color: rgb(18, 156, 156);
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Readex Pro", sans-serif;
+  padding-bottom: 2px;
+  width: 245px;
+}
+.contenedor {
+  display: flex;
+}
+.content__img {
+  width: 50%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+  background-image: linear-gradient(
+      to left,
+      rgb(0 0 0 / 0.1),
+      rgba(42, 103, 109, 0.4)
+    ),
+    url(.././../../assets/sueroterapia.webp);
+}
+
+.paragrahp {
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  background: #41aaa3;
+  font-size: 1.1rem;
+  font-family: "Readex Pro", sans-serif;
+  flex-direction: column;
+  line-height: 2.3rem;
+  color: #ffff;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+.content {
+  width: 100%;
+  display: flex;
+  gap: 0rem;
+  text-align: center;
+}
+.first__paragrahp {
+  width: 50%;
+}
+.second__paragrahp {
+  width: 50%;
+}
+
+.container__social {
+  font-size: 1rem;
+  border-radius: 2rem;
+  background: #25d366;
+  padding: 0.7rem 0.1rem;
+  top: 35rem;
+  right: 1.4rem;
+  position: fixed;
+  z-index: 20;
+  border-radius: 50%;
+}
+.container__social a {
+  text-decoration: none;
+  color: #ffff;
+}
+.container__social__img {
+  display: flex;
+  align-items: center;
+}
+.container__social__img img {
+  width: 56px;
+  padding: 0 0.7rem;
+}
+.container__social:hover {
+  background: #06be4a;
+}
+
+@media screen and (max-width: 820px) {
+  .container__social {
+    top: 40rem;
+  }
+  .container__social {
+    top: 28rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container__specialties {
+    margin-top: 0rem;
+  }
+  .tittle {
+    line-height: 3rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .contenedor {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content__img {
+    flex-direction: column;
+    height: 50vh;
+    padding: 3rem 0;
+    width: 100%;
+  }
+  .tittle {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .paragrahp {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .paragrahp {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+  }
+  li {
+    list-style: disc;
+  }
+}

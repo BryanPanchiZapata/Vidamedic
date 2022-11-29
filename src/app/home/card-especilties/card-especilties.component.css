@@ -60,18 +60,45 @@ mat-card-content {
   font-size: 1.4rem;
   margin-bottom: 1rem;
   color: #4d4d4d;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 .content__subtittle {
   color: #666666;
-  font-size:.9rem;
+  font-size: 0.9rem;
   text-align: center;
   line-height: 1.5rem;
   font-family: "Readex Pro", sans-serif;
 }
 li {
   list-style: none;
+}
+
+
+.service__tittle {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 2rem;
+  color: #338b85;
+  padding-bottom: 0.9rem;
+}
+.border {
+  background-color: rgb(8, 160, 160);
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Readex Pro", sans-serif;
+  padding-bottom: 2px;
+  width: 285px;
+}
+
+.laboratorio {
+  display: flex;
+  justify-content: start;
+}
+.laboratorio img {
+  height: 35rem;
 }
 
 .container__social {
@@ -99,4 +126,17 @@ li {
 }
 .container__social:hover {
   background: #06be4a;
+}
+
+@media screen and (max-width: 500px) {
+  .laboratorio img {
+    width: 100%;
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .laboratorio {
+    margin-bottom: 1rem;
+  }
 }

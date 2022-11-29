@@ -10,14 +10,15 @@
 .content__text {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 .image {
   margin-top: 1rem;
-  width: 40%;
+  width: 50%;
   text-align: center;
 }
 .image img {
-  width: 70%;
+  width: 60%;
 }
 
 .cont__text-social {
@@ -28,7 +29,7 @@
 }
 
 .container__texts__social {
-  width: 50%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
   align-self: flex-start;
@@ -44,7 +45,8 @@
 .content__direction {
   font-size: 1rem;
   line-height: 2rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: "Readex Pro", sans-serif;
   margin-top: 1rem;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1);
   color: #fff;
