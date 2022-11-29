@@ -225,7 +225,10 @@
 @media screen and (max-width: 820px) {
   .container-carrusel1,
   .container-carrusel2,
-  .container-carrusel3 {
+  .container-carrusel3,
+  .container-carrusel4,
+  .container-carrusel5,
+  .container-carrusel6 {
     background-position: center;
   }
 
