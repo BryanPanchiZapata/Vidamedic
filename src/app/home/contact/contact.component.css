@@ -37,10 +37,12 @@
   text-align: center;
   line-height: 2rem;
   margin: 0 auto;
-  justify-content: start;
+  justify-content: center;
   margin-top: 2rem;
-  align-items: flex-start;
+  align-items: center;
+  font-family: "Readex Pro", sans-serif;
   display: flex;
+  flex-direction: column;
 }
 .content__info {
   font-size: 1.2rem;
@@ -116,7 +118,7 @@
 
 @media screen and (max-width: 890px) {
   .content__img {
-    height: 95vh;
+    height: 100vh;
   }
 }
 

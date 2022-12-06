@@ -34,6 +34,7 @@ import { ServiceVaccinesComponent } from './home/card-especilties/service-vaccin
 import { LaboratorioComponent } from './home/laboratorio/laboratorio.component';
 import { EmergyComponent } from './home/emergy/emergy.component';
 import { SueroterapiaComponent } from './home/sueroterapia/sueroterapia.component';
+import { PromosComponent } from './home/promos/promos.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { SueroterapiaComponent } from './home/sueroterapia/sueroterapia.componen
     LaboratorioComponent,
     EmergyComponent,
     SueroterapiaComponent,
+    PromosComponent,
   ],
   imports: [
     BrowserModule,
